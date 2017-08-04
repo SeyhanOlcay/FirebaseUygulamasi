@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:elevation="4dp"
+        android:background="@android:color/white"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editTextUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kullanıcı Adını Giriniz"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Şifrenizi Giriniz"
+                android:inputType="numberPassword" />
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/Btngiris" />
+
+            <TextView
+                android:id="@+id/txtRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="@string/TxtKayıtol" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
